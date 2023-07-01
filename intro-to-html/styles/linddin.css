@@ -1,0 +1,37 @@
+p{
+    font-family: Arial
+}
+.top-email-text{
+    color: grey;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+.description{
+    margin-left: 5px;
+}
+.email-input{
+    border-radius: 5px;
+    border-width: 1px;
+    width: 400px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 5px;
+ }
+.button{
+    background-color: rgb(84, 84, 206);
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.button:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.button:active{
+    opacity: 1;
+}

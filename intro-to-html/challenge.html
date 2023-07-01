@@ -1,0 +1,38 @@
+<style>
+    body{
+        font-size: 30;
+    }
+    .pagging{
+        font-size: 30;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        vertical-align: top;
+    }
+    .stretch{
+        background-color: green;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        transition: padding-left 0.15s ,padding-right 0.15s ,padding-bottom 0.15s,padding-top 0.15s ;
+    }
+    .stretch:hover{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 40px;
+        padding-top: 40px;
+
+    }
+</style>
+
+<html>
+    <body>
+        <button class="pagging">back</button>
+        <a href="">1</a> <a href="">2</a> <a href="">3</a> <a href="">4</a>
+        <button class="pagging">next</button> 
+
+        <button class="stretch">stretch</button>
+    </body>
+</html>
